@@ -1,1 +1,235 @@
-{"findings": [{"app": "Minimal-Flaws", "type": "extscan", "title": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-12] \nIn class com.minimals.IV.baseCase.StaticIV \nIn method com.minimals.IV.baseCase.StaticIV.main(String[]) \nAt StaticIV.java:[line 9].", "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**", "internal_id": "STATIC_IV/0b97557f3b63aa98fb445abd05bca055", "severity": "moderate", "owasp_category": "", "category": "Static Iv", "details": {"repoContext": {"gitProvider": "github", "ciProvider": "", "repositoryName": "Minimal-Flaws", "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws", "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1", "branch": "master", "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>", "pullRequest": false, "botUser": false}, "name": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-12] \nIn class com.minimals.IV.baseCase.StaticIV \nIn method com.minimals.IV.baseCase.StaticIV.main(String[]) \nAt StaticIV.java:[line 9].", "tags": "Scan", "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/baseCase/StaticIV.java", "DATA_TYPE": "OSS_SCAN", "lineNumber": 9, "ruleId": "STATIC_IV", "ruleName": "Static Iv", "contextText": "        IvParameterSpec ivSpec = new IvParameterSpec(bytes);\n", "snippetText": "        byte[] bytes = \"Hello\".getBytes();\n        IvParameterSpec ivSpec = new IvParameterSpec(bytes);\n"}, "tags": []}, {"app": "Minimal-Flaws", "type": "extscan", "title": "The initialization vector (IV) is not properly generated \nAt ComplexStaticIV.java:[lines 6-17] \nIn class com.minimals.IV.complexCase.ComplexStaticIV \nIn method com.minimals.IV.complexCase.ComplexStaticIV.main(String[]) \nAt ComplexStaticIV.java:[line 14].", "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**", "internal_id": "STATIC_IV/3bcf065d13507d30b51d35e53e219e77", "severity": "moderate", "owasp_category": "", "category": "Static Iv", "details": {"repoContext": {"gitProvider": "github", "ciProvider": "", "repositoryName": "Minimal-Flaws", "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws", "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1", "branch": "master", "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>", "pullRequest": false, "botUser": false}, "name": "The initialization vector (IV) is not properly generated \nAt ComplexStaticIV.java:[lines 6-17] \nIn class com.minimals.IV.complexCase.ComplexStaticIV \nIn method com.minimals.IV.complexCase.ComplexStaticIV.main(String[]) \nAt ComplexStaticIV.java:[line 14].", "tags": "Scan", "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/complexCase/ComplexStaticIV.java", "DATA_TYPE": "OSS_SCAN", "lineNumber": 14, "ruleId": "STATIC_IV", "ruleName": "Static Iv", "contextText": "        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n", "snippetText": "\n        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n"}, "tags": []}, {"app": "Minimal-Flaws", "type": "extscan", "title": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 22].", "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**", "internal_id": "STATIC_IV/939146bb1bd4a4975dfdb79107e73602", "severity": "moderate", "owasp_category": "", "category": "Static Iv", "details": {"repoContext": {"gitProvider": "github", "ciProvider": "", "repositoryName": "Minimal-Flaws", "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws", "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1", "branch": "master", "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>", "pullRequest": false, "botUser": false}, "name": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 22].", "tags": "Scan", "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/stash/StaticIV.java", "DATA_TYPE": "OSS_SCAN", "lineNumber": 22, "ruleId": "STATIC_IV", "ruleName": "Static Iv", "contextText": "        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes());\n", "snippetText": "        }\n        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes());\n"}, "tags": []}, {"app": "Minimal-Flaws", "type": "extscan", "title": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 24].", "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**", "internal_id": "STATIC_IV/5a1b83642f76450a4b23a566523e032e", "severity": "moderate", "owasp_category": "", "category": "Static Iv", "details": {"repoContext": {"gitProvider": "github", "ciProvider": "", "repositoryName": "Minimal-Flaws", "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws", "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1", "branch": "master", "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>", "pullRequest": false, "botUser": false}, "name": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 24].", "tags": "Scan", "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/stash/StaticIV.java", "DATA_TYPE": "OSS_SCAN", "lineNumber": 24, "ruleId": "STATIC_IV", "ruleName": "Static Iv", "contextText": "        IvParameterSpec ivSpec2 = new IvParameterSpec(val2.getBytes());\n", "snippetText": "        String val2 = \"ABCDEFGHI\";\n        IvParameterSpec ivSpec2 = new IvParameterSpec(val2.getBytes());\n"}, "tags": []}, {"app": "Minimal-Flaws", "type": "extscan", "title": "The initialization vector (IV) is not properly generated \nAt CurrentTimeIV.java:[lines 7-21] \nIn class com.minimals.IV.timeCase.CurrentTimeIV \nIn method com.minimals.IV.timeCase.CurrentTimeIV.main(String[]) \nAt CurrentTimeIV.java:[line 15].", "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**", "internal_id": "STATIC_IV/399f35e5ba7fff67082378a8150d27f6", "severity": "moderate", "owasp_category": "", "category": "Static Iv", "details": {"repoContext": {"gitProvider": "github", "ciProvider": "", "repositoryName": "Minimal-Flaws", "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws", "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1", "branch": "master", "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>", "pullRequest": false, "botUser": false}, "name": "The initialization vector (IV) is not properly generated \nAt CurrentTimeIV.java:[lines 7-21] \nIn class com.minimals.IV.timeCase.CurrentTimeIV \nIn method com.minimals.IV.timeCase.CurrentTimeIV.main(String[]) \nAt CurrentTimeIV.java:[line 15].", "tags": "Scan", "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/timeCase/CurrentTimeIV.java", "DATA_TYPE": "OSS_SCAN", "lineNumber": 15, "ruleId": "STATIC_IV", "ruleName": "Static Iv", "contextText": "        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n", "snippetText": "        // val = new Date(System.currentTimeMillis()).toString();\n        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n"}, "tags": []}, {"app": "Minimal-Flaws", "type": "extscan", "title": "This API MD5 (MDX) is not a recommended cryptographic hash function \nAt MessageDigestComplex.java:[lines 5-15] \nIn class com.minimals.messagedigest.differentCase.MessageDigestComplex \nIn method com.minimals.messagedigest.differentCase.MessageDigestComplex.main(String[]) \nAt MessageDigestComplex.java:[line 9] \nValue MD5.", "description": "This API MD5 (MDX) is not a recommended cryptographic hash function .\n\n## Additional information\n\n**[WEAK MESSAGE DIGEST MD5](https://appthreat.com?q=WEAK_MESSAGE_DIGEST_MD5)**", "internal_id": "WEAK_MESSAGE_DIGEST_MD5/c5cadecdd3950d744bd8952e5bd09070", "severity": "critical", "owasp_category": "", "category": "WEAK MESSAGE DIGEST MD5", "details": {"repoContext": {"gitProvider": "github", "ciProvider": "", "repositoryName": "Minimal-Flaws", "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws", "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1", "branch": "master", "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>", "pullRequest": false, "botUser": false}, "name": "This API MD5 (MDX) is not a recommended cryptographic hash function \nAt MessageDigestComplex.java:[lines 5-15] \nIn class com.minimals.messagedigest.differentCase.MessageDigestComplex \nIn method com.minimals.messagedigest.differentCase.MessageDigestComplex.main(String[]) \nAt MessageDigestComplex.java:[line 9] \nValue MD5.", "tags": "Scan", "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/messagedigest/differentCase/MessageDigestComplex.java", "DATA_TYPE": "OSS_SCAN", "lineNumber": 9, "ruleId": "WEAK_MESSAGE_DIGEST_MD5", "ruleName": "WEAK MESSAGE DIGEST MD5", "contextText": "            cryptoDigest = MessageDigest.getInstance(\"md5\");\n", "snippetText": "        try {\n            cryptoDigest = MessageDigest.getInstance(\"md5\");\n"}, "tags": []}, {"app": "Minimal-Flaws", "type": "extscan", "title": "The initialization vector (IV) is not properly generated \nAt Static.java:[lines 3-8] \nIn class com.minimals.newOps.StaticKeystore.Static \nIn method com.minimals.newOps.StaticKeystore.Static.main(String[]) \nAt Static.java:[line 7].", "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**", "internal_id": "STATIC_IV/8d455c8f35108ae821a1760b95fb8070", "severity": "moderate", "owasp_category": "", "category": "Static Iv", "details": {"repoContext": {"gitProvider": "github", "ciProvider": "", "repositoryName": "Minimal-Flaws", "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws", "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1", "branch": "master", "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>", "pullRequest": false, "botUser": false}, "name": "The initialization vector (IV) is not properly generated \nAt Static.java:[lines 3-8] \nIn class com.minimals.newOps.StaticKeystore.Static \nIn method com.minimals.newOps.StaticKeystore.Static.main(String[]) \nAt Static.java:[line 7].", "tags": "Scan", "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/newOps/StaticKeystore/Static.java", "DATA_TYPE": "OSS_SCAN", "lineNumber": 7, "ruleId": "STATIC_IV", "ruleName": "Static Iv", "contextText": "        javax.crypto.spec.IvParameterSpec ivSpec = new javax.crypto.spec.IvParameterSpec(cryptoTemp,0,8);\n", "snippetText": "        byte[] cryptoTemp = \"12345678\".getBytes();\n        javax.crypto.spec.IvParameterSpec ivSpec = new javax.crypto.spec.IvParameterSpec(cryptoTemp,0,8);\n"}, "tags": []}]}
+{
+    "findings": [
+        {
+            "app": "Minimal-Flaws",
+            "type": "extscan",
+            "title": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-12] \nIn class com.minimals.IV.baseCase.StaticIV \nIn method com.minimals.IV.baseCase.StaticIV.main(String[]) \nAt StaticIV.java:[line 9].",
+            "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**",
+            "internal_id": "STATIC_IV/0b97557f3b63aa98fb445abd05bca055",
+            "severity": "moderate",
+            "owasp_category": "",
+            "category": "Static Iv",
+            "details": {
+                "repoContext": {
+                    "gitProvider": "github",
+                    "ciProvider": "",
+                    "repositoryName": "Minimal-Flaws",
+                    "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws",
+                    "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1",
+                    "branch": "master",
+                    "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>",
+                    "pullRequest": false,
+                    "botUser": false
+                },
+                "name": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-12] \nIn class com.minimals.IV.baseCase.StaticIV \nIn method com.minimals.IV.baseCase.StaticIV.main(String[]) \nAt StaticIV.java:[line 9].",
+                "tags": "Scan",
+                "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/baseCase/StaticIV.java",
+                "DATA_TYPE": "OSS_SCAN",
+                "lineNumber": 9,
+                "ruleId": "STATIC_IV",
+                "ruleName": "Static Iv",
+                "contextText": "        IvParameterSpec ivSpec = new IvParameterSpec(bytes);\n",
+                "snippetText": "        byte[] bytes = \"Hello\".getBytes();\n        IvParameterSpec ivSpec = new IvParameterSpec(bytes);\n"
+            },
+            "tags": []
+        },
+        {
+            "app": "Minimal-Flaws",
+            "type": "extscan",
+            "title": "The initialization vector (IV) is not properly generated \nAt ComplexStaticIV.java:[lines 6-17] \nIn class com.minimals.IV.complexCase.ComplexStaticIV \nIn method com.minimals.IV.complexCase.ComplexStaticIV.main(String[]) \nAt ComplexStaticIV.java:[line 14].",
+            "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**",
+            "internal_id": "STATIC_IV/3bcf065d13507d30b51d35e53e219e77",
+            "severity": "moderate",
+            "owasp_category": "",
+            "category": "Static Iv",
+            "details": {
+                "repoContext": {
+                    "gitProvider": "github",
+                    "ciProvider": "",
+                    "repositoryName": "Minimal-Flaws",
+                    "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws",
+                    "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1",
+                    "branch": "master",
+                    "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>",
+                    "pullRequest": false,
+                    "botUser": false
+                },
+                "name": "The initialization vector (IV) is not properly generated \nAt ComplexStaticIV.java:[lines 6-17] \nIn class com.minimals.IV.complexCase.ComplexStaticIV \nIn method com.minimals.IV.complexCase.ComplexStaticIV.main(String[]) \nAt ComplexStaticIV.java:[line 14].",
+                "tags": "Scan",
+                "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/complexCase/ComplexStaticIV.java",
+                "DATA_TYPE": "OSS_SCAN",
+                "lineNumber": 14,
+                "ruleId": "STATIC_IV",
+                "ruleName": "Static Iv",
+                "contextText": "        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n",
+                "snippetText": "\n        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n"
+            },
+            "tags": []
+        },
+        {
+            "app": "Minimal-Flaws",
+            "type": "extscan",
+            "title": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 22].",
+            "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**",
+            "internal_id": "STATIC_IV/939146bb1bd4a4975dfdb79107e73602",
+            "severity": "moderate",
+            "owasp_category": "",
+            "category": "Static Iv",
+            "details": {
+                "repoContext": {
+                    "gitProvider": "github",
+                    "ciProvider": "",
+                    "repositoryName": "Minimal-Flaws",
+                    "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws",
+                    "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1",
+                    "branch": "master",
+                    "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>",
+                    "pullRequest": false,
+                    "botUser": false
+                },
+                "name": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 22].",
+                "tags": "Scan",
+                "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/stash/StaticIV.java",
+                "DATA_TYPE": "OSS_SCAN",
+                "lineNumber": 22,
+                "ruleId": "STATIC_IV",
+                "ruleName": "Static Iv",
+                "contextText": "        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes());\n",
+                "snippetText": "        }\n        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes());\n"
+            },
+            "tags": []
+        },
+        {
+            "app": "Minimal-Flaws",
+            "type": "extscan",
+            "title": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 24].",
+            "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**",
+            "internal_id": "STATIC_IV/5a1b83642f76450a4b23a566523e032e",
+            "severity": "moderate",
+            "owasp_category": "",
+            "category": "Static Iv",
+            "details": {
+                "repoContext": {
+                    "gitProvider": "github",
+                    "ciProvider": "",
+                    "repositoryName": "Minimal-Flaws",
+                    "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws",
+                    "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1",
+                    "branch": "master",
+                    "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>",
+                    "pullRequest": false,
+                    "botUser": false
+                },
+                "name": "The initialization vector (IV) is not properly generated \nAt StaticIV.java:[lines 6-27] \nIn class com.minimals.IV.stash.StaticIV \nIn method com.minimals.IV.stash.StaticIV.main(String[]) \nAt StaticIV.java:[line 24].",
+                "tags": "Scan",
+                "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/stash/StaticIV.java",
+                "DATA_TYPE": "OSS_SCAN",
+                "lineNumber": 24,
+                "ruleId": "STATIC_IV",
+                "ruleName": "Static Iv",
+                "contextText": "        IvParameterSpec ivSpec2 = new IvParameterSpec(val2.getBytes());\n",
+                "snippetText": "        String val2 = \"ABCDEFGHI\";\n        IvParameterSpec ivSpec2 = new IvParameterSpec(val2.getBytes());\n"
+            },
+            "tags": []
+        },
+        {
+            "app": "Minimal-Flaws",
+            "type": "extscan",
+            "title": "The initialization vector (IV) is not properly generated \nAt CurrentTimeIV.java:[lines 7-21] \nIn class com.minimals.IV.timeCase.CurrentTimeIV \nIn method com.minimals.IV.timeCase.CurrentTimeIV.main(String[]) \nAt CurrentTimeIV.java:[line 15].",
+            "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**",
+            "internal_id": "STATIC_IV/399f35e5ba7fff67082378a8150d27f6",
+            "severity": "moderate",
+            "owasp_category": "",
+            "category": "Static Iv",
+            "details": {
+                "repoContext": {
+                    "gitProvider": "github",
+                    "ciProvider": "",
+                    "repositoryName": "Minimal-Flaws",
+                    "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws",
+                    "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1",
+                    "branch": "master",
+                    "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>",
+                    "pullRequest": false,
+                    "botUser": false
+                },
+                "name": "The initialization vector (IV) is not properly generated \nAt CurrentTimeIV.java:[lines 7-21] \nIn class com.minimals.IV.timeCase.CurrentTimeIV \nIn method com.minimals.IV.timeCase.CurrentTimeIV.main(String[]) \nAt CurrentTimeIV.java:[line 15].",
+                "tags": "Scan",
+                "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/IV/timeCase/CurrentTimeIV.java",
+                "DATA_TYPE": "OSS_SCAN",
+                "lineNumber": 15,
+                "ruleId": "STATIC_IV",
+                "ruleName": "Static Iv",
+                "contextText": "        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n",
+                "snippetText": "        // val = new Date(System.currentTimeMillis()).toString();\n        IvParameterSpec ivSpec = new IvParameterSpec(val.getBytes(),0,8);\n"
+            },
+            "tags": []
+        },
+        {
+            "app": "Minimal-Flaws",
+            "type": "extscan",
+            "title": "This API MD5 (MDX) is not a recommended cryptographic hash function \nAt MessageDigestComplex.java:[lines 5-15] \nIn class com.minimals.messagedigest.differentCase.MessageDigestComplex \nIn method com.minimals.messagedigest.differentCase.MessageDigestComplex.main(String[]) \nAt MessageDigestComplex.java:[line 9] \nValue MD5.",
+            "description": "This API MD5 (MDX) is not a recommended cryptographic hash function .\n\n## Additional information\n\n**[WEAK MESSAGE DIGEST MD5](https://appthreat.com?q=WEAK_MESSAGE_DIGEST_MD5)**",
+            "internal_id": "WEAK_MESSAGE_DIGEST_MD5/c5cadecdd3950d744bd8952e5bd09070",
+            "severity": "critical",
+            "owasp_category": "",
+            "category": "WEAK MESSAGE DIGEST MD5",
+            "details": {
+                "repoContext": {
+                    "gitProvider": "github",
+                    "ciProvider": "",
+                    "repositoryName": "Minimal-Flaws",
+                    "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws",
+                    "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1",
+                    "branch": "master",
+                    "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>",
+                    "pullRequest": false,
+                    "botUser": false
+                },
+                "name": "This API MD5 (MDX) is not a recommended cryptographic hash function \nAt MessageDigestComplex.java:[lines 5-15] \nIn class com.minimals.messagedigest.differentCase.MessageDigestComplex \nIn method com.minimals.messagedigest.differentCase.MessageDigestComplex.main(String[]) \nAt MessageDigestComplex.java:[line 9] \nValue MD5.",
+                "tags": "Scan",
+                "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/messagedigest/differentCase/MessageDigestComplex.java",
+                "DATA_TYPE": "OSS_SCAN",
+                "lineNumber": 9,
+                "ruleId": "WEAK_MESSAGE_DIGEST_MD5",
+                "ruleName": "WEAK MESSAGE DIGEST MD5",
+                "contextText": "            cryptoDigest = MessageDigest.getInstance(\"md5\");\n",
+                "snippetText": "        try {\n            cryptoDigest = MessageDigest.getInstance(\"md5\");\n"
+            },
+            "tags": []
+        },
+        {
+            "app": "Minimal-Flaws",
+            "type": "extscan",
+            "title": "The initialization vector (IV) is not properly generated \nAt Static.java:[lines 3-8] \nIn class com.minimals.newOps.StaticKeystore.Static \nIn method com.minimals.newOps.StaticKeystore.Static.main(String[]) \nAt Static.java:[line 7].",
+            "description": "The initialization vector (IV) is not properly generated .\n\n## Additional information\n\n**[Static Iv](https://appthreat.com?q=STATIC_IV)**",
+            "internal_id": "STATIC_IV/8d455c8f35108ae821a1760b95fb8070",
+            "severity": "moderate",
+            "owasp_category": "",
+            "category": "Static Iv",
+            "details": {
+                "repoContext": {
+                    "gitProvider": "github",
+                    "ciProvider": "",
+                    "repositoryName": "Minimal-Flaws",
+                    "repositoryUri": "https://github.com/scottmarsden/Minimal-Flaws",
+                    "revisionId": "723e932a5f496db157ebea24d7a046cf7e1124e1",
+                    "branch": "master",
+                    "invokedBy": "scttmars <55801303+scttmars@users.noreply.github.com>",
+                    "pullRequest": false,
+                    "botUser": false
+                },
+                "name": "The initialization vector (IV) is not properly generated \nAt Static.java:[lines 3-8] \nIn class com.minimals.newOps.StaticKeystore.Static \nIn method com.minimals.newOps.StaticKeystore.Static.main(String[]) \nAt Static.java:[line 7].",
+                "tags": "Scan",
+                "fileName": "file:///Users/scottmarsden/Documents/GitHub/Minimal-Flaws/src/main/java/com/minimals/newOps/StaticKeystore/Static.java",
+                "DATA_TYPE": "OSS_SCAN",
+                "lineNumber": 7,
+                "ruleId": "STATIC_IV",
+                "ruleName": "Static Iv",
+                "contextText": "        javax.crypto.spec.IvParameterSpec ivSpec = new javax.crypto.spec.IvParameterSpec(cryptoTemp,0,8);\n",
+                "snippetText": "        byte[] cryptoTemp = \"12345678\".getBytes();\n        javax.crypto.spec.IvParameterSpec ivSpec = new javax.crypto.spec.IvParameterSpec(cryptoTemp,0,8);\n"
+            },
+            "tags": []
+        }
+    ]
+}
