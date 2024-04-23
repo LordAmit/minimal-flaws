@@ -6,7 +6,7 @@ public class MessageDigestComplex {
     public static void main(String[] args) {
         MessageDigest cryptoDigest;
         try {
-            cryptoDigest = MessageDigest.getInstance("SHA-256".replace("SHA-256", "md5"));
+            cryptoDigest = MessageDigest.getInstance("MD4".replace("MD4", "MD5"));
             System.out.println(cryptoDigest.getAlgorithm());
 
         } catch (NoSuchAlgorithmException e) {
