@@ -9,6 +9,6 @@ public class IntExample {
             }
         }
         byte[] salt = {80,45,56};
-        javax.crypto.spec.PBEKeySpec("very_secure".toCharArray(), salt, new NestedClass().getIteration());
+        new javax.crypto.spec.PBEKeySpec("very_secure".toCharArray(), salt, new NestedClass().getIteration());
       }
 }

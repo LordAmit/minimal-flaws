@@ -5,6 +5,6 @@ public class IntExample {
         java.lang.System.out.println("Hello");
         int iterCount = 30;
         byte[] salt = {80,45,56};
-        javax.crypto.spec.PBEKeySpec("very_secure".toCharArray(), salt, iterCount + 20);
+        new javax.crypto.spec.PBEKeySpec("very_secure".toCharArray(), salt, iterCount + 20);
       }
 }
